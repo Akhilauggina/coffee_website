@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Place Order</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="order-section">
+    <div class="order-container">
+      <h2>Place Your Order</h2>
+      <form id="order-form">
+        <label for="item">Item:</label>
+        <input type="text" id="item" name="item" required>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" required>
+
+        <label for="customer">Customer Name:</label>
+        <input type="text" id="customer" name="customer" required>
+
+        <button type="submit">Submit Order</button>
+      </form>
+      <p id="order-message"></p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+`

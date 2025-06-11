@@ -1,0 +1,42 @@
+.order-section {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background: #f6f6f6;
+}
+
+.order-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.order-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.order-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-container input, .order-container button {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.order-container button {
+  background-color: #613613;
+  color: #fff;
+  cursor: pointer;
+}
+
+.order-container button:hover {
+  background-color: #8c5c2a;
+}
